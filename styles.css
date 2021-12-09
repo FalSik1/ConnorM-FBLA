@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.header {
+    text-align: center;
+    background-color:#43bfe8;
+    border-bottom: solid 5px black;
+}
+#linkbutton {
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 20px 25px;
+    border: solid black 1px;
+}
+#linkbutton:hover{
+    border: solid white 1px;
+}
+#mainlinkstxt {
+    font-family: 'Roboto Mono';
+}
+#smalltitle {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+body{
+    margin: 0px;
+    background-image: url(bground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Welcome {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 175%;
+    margin-top: 1.5in;
+    margin-bottom: 1.5in;
+}
+.latest_items {
+    text-align: center;
+    font-size: 150%;
+    border-top: solid black 5px;
+    background-color: white;
+    font-family: 'Roboto Mono';
+    border-bottom: solid black 5px;
+    padding-bottom: 5px;
+    margin-bottom: 4in;
+}
+#nobullet {
+    list-style: none;
+}
+table {
+    margin: auto;
+    margin-bottom: 4in;
+}
+tr {
+    background: white;
+}
+#price-itemcol {
+    font-family: 'Roboto Mono';
+    padding: 10px;
+    text-align: center;
+    width: 2in;
+    border: solid black 2px;
+  }
+#desccol {
+    width: 6in;
+    font-family: 'Roboto Mono';
+    border: solid black 2px;
+}
+.specials {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    border-top: solid black 5px;
+    background-image: url(fireworks_jpg-9.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Roboto Mono';
+    border-bottom: solid black 5px;
+    background-size: cover;
+    margin-bottom: 2in;
+    padding-bottom: 5px;
+}
+.backtotop {
+    font-family: 'Roboto Mono';
+    color: white;
+}
+#note {
+    text-align: right;
+}
+.ourmotto {
+    text-align: center;
+    font-size: 150%;
+    border-top: solid black 5px;
+    background-color: white;
+    font-family: 'Roboto Mono';
+    border-bottom: solid black 5px;
+    padding-bottom: 5px;
+}
+.localimpact{
+    margin-top: 3in;
+    text-align: center;
+    font-size: 150%;
+    border-top: solid black 5px;
+    background-color: white;
+    font-family: 'Roboto Mono';
+    border-bottom: solid black 5px;
+    padding-bottom: 5px;
+}
+.birthdays {
+    margin-top: 2in;
+    text-align: center;
+    font-size: 150%;
+    border-top: solid black 5px;
+    background-color: white;
+    font-family: 'Roboto Mono';
+    border-bottom: solid black 5px;
+    padding-bottom: 5px;
+}
+#menutitle {
+    font-family: 'Roboto Mono';
+    text-align: center;
+    font-size: 200%;
+}
